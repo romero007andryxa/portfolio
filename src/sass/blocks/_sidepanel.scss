@@ -8,6 +8,14 @@
     flex-direction: column;
     z-index: 3;
     height: 340px;
+    &__link {
+        &:hover {
+            svg path {
+                transition: 0.5s all;
+                fill: $main-color;
+            }
+        }
+    }
     &__divider {
         width: 2px;
         height: 70px;
