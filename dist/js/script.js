@@ -8,3 +8,10 @@ hamburger.addEventListener('click', () =>{
 closeElem.addEventListener('click', () =>{
     menu.classList.remove('active');
 });
+
+const percents = document.querySelectorAll('.skills__skillbars-percentage'),
+      lines = document.querySelectorAll('.skills__skillbars-line span');
+
+percents.forEach( (item, i) =>{
+    lines[i].style.width = item.innerHTML;
+})
