@@ -3,8 +3,9 @@
     background: $main-color;
     border-radius: 10px;
     padding: 12px 25px;
-    transition: all 0.5s;
+    transition: all 0.6s;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 15%);
     &:hover {
-        box-shadow: 4px 4px 4px rgb(0 0 0 / 15%);
+        background: #ffe5b4;
     }
 }

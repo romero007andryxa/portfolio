@@ -12,7 +12,7 @@
         display: block;
         width: 30px;
         height: 3px;
-        background-color: #151812;
+        background-color: white;
     }
     span.wide {
         width: 36px;
@@ -37,7 +37,7 @@
     &__block {
         position: relative;
         padding-top: 140px;
-        padding-left: 40px ;
+        padding-left: 40px;
         height: 100%;
         width: 345px;
         background-color: $main-color;
